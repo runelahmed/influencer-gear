@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+    margin-top: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .main-menu ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+/* .navbar .main-menu ul li a:hover{
+
+  } */
+
+/* Header content */
+
+.container .header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 80px;
+    justify-items: center;
+}
+
+.header-content .header-info .header-title {
+    font-size: 40px;
+    line-height: 3.5rem;
+    color: #3A3A3A;
+}
+
+.header-info .header-description {
+    font-size: 16px;
+    padding: 16px 0;
+    padding-right: 25px;
+}
+
+.header-content img {
+    border-radius: 475px;
+    border: 3px solid #F1E4FF;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 15px;
+    background: #E02C6D;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.btn-primary a {
+    color: #fff;
+}
+
+#btn-primary {
+    color: #fff;
+    border-radius: 40px;
+}
+
+
+/* Company logoes section */
+
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin: 100px 0;
+
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 3px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    grid-column-gap: 10px;
+}
+
+.company-logo {
+    display: flex;
+    align-items: center;
+}
+
+/* Popular collection section */
+
+.popular-collection-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.popular-collection-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.popular-collection-card .card-body {
+    padding: 15px;
+}
+
+.popular-collection-card .card-body .card-title {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 15px 0;
+}
+
+.card-body {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.card-body .price {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.card-body .rating {
+    display: flex;
+}
+
+.card-body .rating i {
+    padding-right: 5px;
+    color: rgb(220, 152, 4);
+    width: 16px;
+    height: 16px;
+}
+
+.card-body .rating .rating-point {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.card-body .content {
+    font-size: 14px;
+    color: #787885;
+    font-weight: 700;
+
+}
+
+.container-sm .see-more {
+    color: #E02C6D;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 50px;
+}
+
+
+/* Feature section */
+.featured-container {
+    padding: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.featured-card {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 100px;
+}
+
+
+
+.featured-card .featured-card-right .featured-title {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.featured-content {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 15px 0px;
+}
+
+.join-btn{
+    display: inline-block;
+    padding: 5px 15px;
+    background: #E02C6D;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.join-btn a{
+    color: #fff;
+}
+/* Utility classes */
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: auto;
+}
+
+.container-sm {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.footer{
+    background-color: #333;
+    padding: 50px;
+}
+
+.influencer-product{
+    color: #fff;
+}
+
+.footer .influencer-product .social-media{
+    display: flex;
+    justify-content: center;
+} 
+.social-media a{
+    padding: 10px;
+    color: #FFF;
+}
